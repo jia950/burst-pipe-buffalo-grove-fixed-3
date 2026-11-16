@@ -201,4 +201,67 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   .home-game-contact .game-teaser,.home-game-contact .home-callout{min-height:0}
   .home-game-contact .game-teaser{gap:20px;padding:24px}
   .home-game-contact .home-callout{gap:18px;padding:24px}
+  /* Header chota karne ke liye */
+.site-header{
+  padding: 8px 0 !important;
+}
+.nav-wrap{
+  min-height: 52px !important;
+}
+.brand{
+  font-size: .9rem !important;
+}
+.brand-mark{
+  width: 32px !important;
+  height: 32px !important;
+}
+}/* Header ke neeche sar chupne ka fix */
+.site-header{
+  position: relative !important;
+}
+.hero-media img{
+  object-position: center 25% !important;
+}
+.hero{
+  padding-top: 0 !important;/* Sar wala final fix - image ko upar se dikhao */
+.topbar{
+  display: none !important;
+}
+.site-header{
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+.hero{
+  margin-top: 0 !important;
+  min-height: 560px !important;
+}
+.hero-media, .hero-img, .hero-image{
+  height: 560px !important;
+}
+.hero-media img, .hero-img img, .hero-image img{
+  object-fit: cover !important;
+  object-position: top center !important;
+  height: 100% !important;
+}/* Asli fix - hero-banner wala */
+.hero-banner{
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  overflow: visible !important;
+}
+.hero-banner img{
+  width: 100% !important;
+  height: 540px !important;
+  object-fit: cover !important;
+  object-position: top center !important;
+  display: block !important;
+}/* Hero image ka final fix - sar poora dikhega */
+.hero-banner{
+  height: auto !important;
+}
+.hero-banner img{
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: top center !important;
+}
 }
